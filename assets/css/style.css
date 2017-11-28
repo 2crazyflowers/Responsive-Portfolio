@@ -1,0 +1,605 @@
+/*This file includes codding for all pages*/
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/concrete_seamless.png);
+}
+
+h2 {
+	font-size: 28px;
+	border-bottom: 2px solid #cccccc;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-size: 24px;
+	border-bottom: 2px solid #cccccc;
+	color: #4aaaa5;
+}
+
+/*Navigation Bar*/
+.navbar {
+	background-color: #ffffff;
+	height: 82px;
+	width: 100%;
+}
+
+h1 {
+	float: left;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin-top: 0;
+	width: 246px;
+	color: white;
+	margin-left: 143px;
+	padding: 25px 20px;
+	font-size: 28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar ul {
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+	margin-right: 150px;
+}
+
+li {
+	padding: 0 20px 0 15px;
+  display: inline;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+}
+
+li a {
+	color: #777777;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar a:hover {
+	background-color: #ffA500;
+	color: #ffffff;
+}
+
+.none {
+	border-style: none;
+}
+
+/*Main Container*/
+.container {
+	border-top: 2px solid #cccccc;
+	width: 100%;
+	height: 510px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 143px;
+	margin-right: 0;
+}
+
+.left {
+	float: left;
+	width: 576px;
+	height: 430px;
+	background-color: #ffffff;
+	padding-right: 37px;
+	padding-bottom: 30px;
+	padding-left: 37px;
+	line-height: 1.5;
+	margin-right: 35px;
+	/*overflow: scroll;*/ /*this is added to every page
+	whether it is needed or not. Not sure I want to
+	use this. The other option is to add the portfolio 
+	class to both the container and the left on the 
+	index.html page*/
+}
+
+.left img {
+	height: 150px;
+	width: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: -20px;
+	float: left;
+}
+
+/*Connect part of page - on every page*/
+.right {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+	padding-right: 37px;
+	padding-left: 37px;
+}
+
+.right img {
+	height: 60px;
+	width: 60px;
+	margin: 0 5px 20px 5px;
+	border: 3px solid #ffffff;
+
+}
+
+.connect {
+/*	padding: 0 auto;
+	margin: 0 auto;Couldn't make this work to center*/
+	padding-left: 20px;
+}
+
+a:hover img {
+	border: 3px solid #dddddd;
+}
+
+/*Footer*/
+footer {
+  clear: both;
+  height: 60px;
+  text-align: center;
+  background-color: #666666;
+  border-top: 6px solid #4aaaa5;
+  color: #ffffff;
+}
+
+/*About me Page*/
+p {
+	line-height: 2;
+}
+
+/*Contact Page*/
+label {
+	margin-bottom: 3px;
+	color: #999999;
+}
+
+.contact, textarea {
+	margin-bottom: 15px;
+	border: 1px solid #DDDDDD;
+	padding: 5px;
+	width: 560px;
+	
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+textarea::placeholder {
+	color: #cccccc;
+}
+
+.contact {
+	width: 576px;
+}
+
+input.btn {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 25px;
+	border-style: none;
+	font-size: 16px;
+	margin: -5px 0 10px 0;
+}
+
+/*Portfolio Page*/
+
+
+.container.portfolio {
+	height: 810px;
+}
+
+.left.portfolio {
+	height: 760px;
+}
+
+.left.portfolio img {
+	height: 198px;
+	width: 265px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+  /*z-index: 1;*/
+}
+
+.left h4 {
+	background-color: #4aaaa5;
+	color: #cccccc;
+	height: 40px;
+	width: 265px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 20px;
+  /*z-index: 2;*/
+}
+
+#hangman {
+	position: absolute;
+	top: 315px;
+	left: 180px;
+
+
+}
+
+#rpg {
+	position: absolute; 
+	top: 315px; 
+	left: 465px;
+}
+
+#trivia {
+	 position: absolute; 
+	 top: 543px; 
+	 left: 180px;
+}
+
+#rutgers {
+	 position: absolute; 
+	 top: 543px; 
+	 left: 465px;
+}
+
+#rock {
+	 position: absolute; 
+	 top: 771px; 
+	 left: 180px;
+}
+
+a:hover h4 {
+	background-color: #0077B5;
+	color: #ffffff;
+}
+
+/*Index File - About Me */
+.container.about{
+	height: 620px;
+}
+
+.left.about {
+	height: 560px;
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is 980px, 768px, 640px.
+*/
+
+@media screen and (max-width: 980px) {
+  .navbar h1 {
+  	margin-left: 100px;
+  }
+
+  ul {
+      margin-right: 96px;
+/*    float: none;*/
+
+    text-align: center;
+  }
+
+  .container {
+    background-color: purple;
+    height: 490px;
+    padding-left: 100px;
+
+  }
+
+  .container.about {
+  	height: 1114px;
+  }
+
+  .left.about {
+  	margin-bottom: 35px;
+  	width: 35%;
+  	height: 1025px;
+  }
+
+  .left.about img {
+  	height: 244px;
+  	width: 325px;
+  }
+
+
+  .right {
+	  width: 25%;
+  }
+
+  .right img {
+  	height: 60px;
+  	width: 60px;
+  	margin: 0 0 20px 0;
+  	/*border: 2px solid #ffffff;*/
+  }
+
+  .left {
+    width: 35%;	
+    padding-right: 37px;
+  }
+
+  .contact {
+    width: 95%;
+ }
+
+  .container.portfolio {
+  	height: 1553px;
+  }
+
+  .left.portfolio {
+    width: 35%;
+    height: 1487px;
+  }
+
+  .left.portfolio img {
+    height: 75%;
+    width: 100%;
+  }
+
+  .left h4 {
+    width: 337px;
+/*    height: 40px;
+    width: 491px;*/
+  }
+
+  .left.portfolio #hangman {
+    top: 369px;
+    left: 123px;
+  }
+
+  .left.portfolio #rpg {
+  	left: 123px;
+    top: 652px;
+  }
+
+  .left.portfolio h4#trivia {
+    top: 938px;
+    left: 123px;
+  }
+
+  .left.portfolio h4#rutgers {
+    top: 1220px;
+    left: 123px;
+  }
+
+  .container.portfolio h4#rock {
+    top: 1502px;
+    left: 123px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+
+  .navbar h1 {
+    margin-left: 41px;
+  }
+    
+  li {
+  	padding: 0px 20px 0 0px;
+  	font-size: .97rem;
+  }
+
+  .container {
+    background-color: salmon;
+   	padding-left: 40px;
+   	padding-right: 40px;
+   	margin-right: 0;
+   	height: 682px;
+  }
+
+  ul {
+    margin-right: 26px;
+  }
+
+  p {
+  	font-size: .9rem;
+  }
+
+  .container.about {
+  	height: 815px;
+  }
+
+  .left.about {
+  	margin-bottom: 35px;
+  	margin-right: 0;
+  	padding-left: 40px;
+  	width: 79%;
+  	height: 545px;
+  }
+
+  .left.about img {
+  	height: 47%;
+  }
+
+  .left {
+    width: 79%;	
+    margin-bottom: 30px;
+    padding-right: 30px;
+  }
+
+  h1 {
+  	/*font-size: .95rem;*/
+  	font-size: 26px;
+  	margin-left: 42px;
+
+  }
+
+  .right {
+	width: 79%;
+  }
+
+  .right img {
+	height: 60px;
+	width: 60px;
+	margin: 0 0 20px 0;
+	/*border: 2px solid #ffffff;*/
+  }
+
+  .connect {
+    padding-left: 0;
+  }
+
+  .container.portfolio {
+	height: 1032px;.
+  }
+
+  .left.portfolio {
+    width: 80%;
+    height: 773px;
+  }
+
+  .left.portfolio #hangman {
+	top: 318px;
+    left: 77px;
+  }
+
+  .left.portfolio #rpg {
+    left: 362px;
+    top: 318px;
+  }
+
+  .left.portfolio h4#trivia {
+    top: 545px;
+    left: 77px;
+  }
+
+  .left.portfolio h4#rutgers {
+    top: 545px;
+    left: 362px;
+  }
+
+  .container.portfolio h4#rock {
+	top: 772px;
+    left: 77px;
+  }
+
+}
+ 
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+
+  .navbar {
+  	height: 130px;
+  	width: 100%;
+  	margin-left: 0;
+}
+
+  .navbar h1 {
+    margin-left: 2px;
+}
+
+  li {
+  	padding: 10px 50px 10px 50px;
+  	/*need to fix padding as it 
+  	will not shrink down properly
+  	 if on small screen*/
+  	font-size: .97rem;
+  }
+
+  .container {
+    background-color: teal;
+   	padding-left: 40px;
+   	padding-right: 40px;
+   	margin: 0;
+   	padding-left: 23px;
+  }
+
+  .navbar ul {
+    margin: 10px;
+    padding: 10px;
+    float: none;
+    text-align: center;
+  }
+
+  p {
+  	font-size: .9rem;
+  }
+
+  .container.about {
+  	height: 1115px;
+  }
+
+  .left.about {
+  	margin-bottom: 35px;
+  	margin-right: 0;
+  	padding-left: 0
+  	width: 77%;
+  	height: 844px;
+  }
+
+  .left.about img {
+  	height: 366px;
+  	width: 488px;
+  }
+
+  h1 {
+/*  	font-size: 26px;*/
+  	margin-left: 0;
+  	width: 583px;
+  	padding: 25px 20px;
+  }
+
+  .right {
+  	width: 79%;
+  	float: clear;
+  }
+
+  .right img {
+  	height: 60px;
+  	width: 60px;
+  	margin: 0 0 20px 0;
+  	/*border: 2px solid #ffffff;*/
+  }
+
+  .connect {
+    padding-left: 0;
+  }
+
+  .container.portfolio {
+    height: 2353px;
+  }
+
+  .left.portfolio {
+    width: 79%;
+    height: 2073px;
+  }
+
+  .left h4 {
+    height: 40px;
+    width: 491px;
+  }
+
+  .left.portfolio img {
+    height: 75%;
+    width: 100%;
+  }
+
+ .left.portfolio #hangman {
+	  top: 543px;
+    left: 60px;
+  }
+
+  .left.portfolio #rpg {
+  	left: 60px;
+    top: 944px;
+  }
+
+  .left.portfolio h4#trivia {
+    top: 1341px;
+    left: 60px;
+  }
+
+  .left.portfolio h4#rutgers {
+    top: 1738px;
+    left: 60px;
+  }
+
+  .container.portfolio h4#rock {
+    top: 2140px;
+    left: 60px;
+  }
+}
