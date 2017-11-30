@@ -222,8 +222,6 @@ input.btn {
 	position: absolute;
 	top: 315px;
 	left: 180px;
-
-
 }
 
 #rpg {
@@ -283,10 +281,11 @@ a:hover h4 {
   }
 
   .container {
-    background-color: purple;
+/*used background-color to tell me when screen
+size reached 980px*/
+/*    background-color: purple;*/
     height: 490px;
     padding-left: 100px;
-
   }
 
   .container.about {
@@ -303,7 +302,6 @@ a:hover h4 {
   	height: 244px;
   	width: 325px;
   }
-
 
   .right {
 	  width: 25%;
@@ -323,7 +321,7 @@ a:hover h4 {
 
   .contact {
     width: 95%;
- }
+  }
 
   .container.portfolio {
   	height: 1553px;
@@ -340,36 +338,37 @@ a:hover h4 {
   }
 
   .left h4 {
-    width: 337px;
+    width: 327px;
 /*    height: 40px;
     width: 491px;*/
   }
 
   .left.portfolio #hangman {
-    top: 369px;
-    left: 123px;
+    top: 365px;
+    left: 137px;
   }
 
   .left.portfolio #rpg {
-  	left: 123px;
-    top: 652px;
+  	left: 137px;
+    top: 640px;
   }
 
   .left.portfolio h4#trivia {
-    top: 938px;
-    left: 123px;
+    top: 915px;
+    left: 137px;
   }
 
   .left.portfolio h4#rutgers {
-    top: 1220px;
-    left: 123px;
+    top: 1192px;
+    left: 137px;
   }
 
   .container.portfolio h4#rock {
-    top: 1502px;
-    left: 123px;
+    top: 1468px;
+    left: 137px;
   }
 }
+
 @media screen and (max-width: 768px) {
   /* The body's bg color will be #333 */
 
@@ -383,7 +382,9 @@ a:hover h4 {
   }
 
   .container {
-    background-color: salmon;
+    /*used background-color to tell me when screen
+size reached 980px*/
+    /*background-color: salmon;*/
    	padding-left: 40px;
    	padding-right: 40px;
    	margin-right: 0;
@@ -424,7 +425,6 @@ a:hover h4 {
   	/*font-size: .95rem;*/
   	font-size: 26px;
   	margin-left: 42px;
-
   }
 
   .right {
@@ -486,11 +486,11 @@ a:hover h4 {
   	height: 130px;
   	width: 100%;
   	margin-left: 0;
-}
+  }
 
   .navbar h1 {
     margin-left: 2px;
-}
+  }
 
   li {
   	padding: 10px 50px 10px 50px;
@@ -501,7 +501,9 @@ a:hover h4 {
   }
 
   .container {
-    background-color: teal;
+    /*background-color: teal;*/
+    /*used background-color to tell me when screen
+size reached 980px*/
    	padding-left: 40px;
    	padding-right: 40px;
    	margin: 0;
@@ -570,7 +572,7 @@ a:hover h4 {
 
   .left h4 {
     height: 40px;
-    width: 491px;
+    width: 480px;
   }
 
   .left.portfolio img {
@@ -579,27 +581,27 @@ a:hover h4 {
   }
 
  .left.portfolio #hangman {
-	  top: 543px;
+	  top: 535px;
     left: 60px;
   }
 
   .left.portfolio #rpg {
   	left: 60px;
-    top: 944px;
+    top: 924px;
   }
 
   .left.portfolio h4#trivia {
-    top: 1341px;
+    top: 1313px;
     left: 60px;
   }
 
   .left.portfolio h4#rutgers {
-    top: 1738px;
+    top: 1705px;
     left: 60px;
   }
 
   .container.portfolio h4#rock {
-    top: 2140px;
+    top: 2095px;
     left: 60px;
   }
 }
