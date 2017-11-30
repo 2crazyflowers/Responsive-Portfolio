@@ -432,16 +432,17 @@ size reached 980px*/
   	margin-bottom: 35px;
   	margin-right: 0;
   	padding-left: 40px;
-  	width: 79%;
+  	width: 90%;
   	height: 545px;
   }
 
   .left.about img {
-  	height: 47%;
+  	height: 45%;
+    width: 55%;
   }
 
   .left {
-    width: 79%;	
+    width: 90%;	
     margin-bottom: 30px;
     padding-right: 30px;
   }
@@ -453,7 +454,7 @@ size reached 980px*/
   }
 
   .right {
-	width: 79%;
+	width: 90%;
   }
 
   .right img {
@@ -472,7 +473,7 @@ size reached 980px*/
   }
 
   .left.portfolio {
-    width: 80%;
+    width: 90%;
     height: 773px;
   }
 
