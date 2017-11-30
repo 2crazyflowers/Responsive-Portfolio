@@ -510,7 +510,7 @@ size reached 980px*/
 
   .container.portfolio h4#rock {
 	top: 772px;
-    left: 77px;
+  left: 77px;
   }
 
 }
@@ -521,7 +521,7 @@ size reached 980px*/
 
   .navbar {
   	height: 130px;
-  	width: 100%;
+  	/*width: 99%;*/
   	margin-left: 0;
   }
 
@@ -541,6 +541,13 @@ size reached 980px*/
     /*background-color: teal;*/
     /*used background-color to tell me when screen
 size reached 980px*/
+/*I added a width as I got a horizontal scroll bar on 
+my page. When I removed the Width:100%; on the main css
+it fixed the other issuse. Hold on, just found width:100%;
+int the navbar in 640 code. Changed that to 99% and now 
+the left container sizing resolved, however, now will have
+to fix the navbar*/
+    /*width: 75%;*/
    	padding-left: 40px;
    	padding-right: 40px;
    	margin: 0;
@@ -566,7 +573,7 @@ size reached 980px*/
   	margin-bottom: 35px;
   	margin-right: 0;
   	padding-left: 0
-  	width: 77%;
+  	width: 88.5%;
   	height: 844px;
   }
 
@@ -578,12 +585,12 @@ size reached 980px*/
   h1 {
 /*  	font-size: 26px;*/
   	margin-left: 0;
-  	width: 583px;
+  	width: 565px;
   	padding: 25px 20px;
   }
 
   .right {
-  	width: 79%;
+  	width: 88.5%;
   	float: clear;
   }
 
@@ -599,12 +606,12 @@ size reached 980px*/
   }
 
   .container.portfolio {
-    height: 2353px;
+    height: 2320px;
   }
 
   .left.portfolio {
-    width: 79%;
-    height: 2073px;
+    width: 88.5%;
+    height: 2040px;
   }
 
   .left h4 {
