@@ -74,7 +74,7 @@ li a {
 /*Main Container*/
 .container {
 	border-top: 2px solid #cccccc;
-/*	width: 100%;*/
+	width: 100%;
 	height: 510px;
 	padding-top: 30px;
 	padding-right: 30px;
@@ -197,6 +197,10 @@ input.btn {
 	height: 760px;
 }
 
+.left.port {
+  position: absolute;
+}
+
 .left.portfolio img {
 	height: 198px;
 	width: 265px;
@@ -219,33 +223,33 @@ input.btn {
 }
 
 #hangman {
-	position: absolute;
+/*	position: absolute;
 	top: 315px;
-	left: 180px;
+	left: 180px;*/
 }
 
 #rpg {
-	position: absolute; 
+	/*position: absolute; 
 	top: 315px; 
-	left: 465px;
+	left: 465px;*/
 }
 
 #trivia {
-	 position: absolute; 
+/*	 position: absolute; 
 	 top: 543px; 
-	 left: 180px;
+	 left: 180px;*/
 }
 
 #rutgers {
-	 position: absolute; 
+/*	 position: absolute; 
 	 top: 543px; 
-	 left: 465px;
+	 left: 465px;*/
 }
 
 #rock {
-	 position: absolute; 
+/*	 position: absolute; 
 	 top: 771px; 
-	 left: 180px;
+	 left: 180px;*/
 }
 
 a:hover h4 {
@@ -268,31 +272,6 @@ a:hover h4 {
   is 980px, 768px, 640px.
 */
 
-
-@media screen and (max-width: 1233px) {
-    .container {
-    height: 687px;
-  }
-
-   .left {
-    margin-bottom: 30px;
-  }
-
-  .container.about {
-    height: 812px;
-  }
-
-  .container.portfolio {
-    height: 1014px;
-  }
-
-  .left.portfolio {
-    height: 760px;
-    margin-bottom: 30px;
-  }
-}
-
-
 @media screen and (max-width: 980px) {
   .navbar h1 {
   	margin-left: 100px;
@@ -314,22 +293,22 @@ size reached 980px*/
   }
 
   .container.about {
-  	height: 1150px;
+  	height: 1114px;
   }
 
   .left.about {
   	margin-bottom: 35px;
   	width: 35%;
-  	height: 1090px;
+  	height: 1025px;
   }
 
   .left.about img {
-  	height: 217px;
-  	width: 290px;
+  	height: 244px;
+  	width: 325px;
   }
 
   .right {
-	  width: 30%;
+	  width: 25%;
   }
 
   .right img {
@@ -349,12 +328,12 @@ size reached 980px*/
   }
 
   .container.portfolio {
-  	height: 1379px;
+  	height: 1553px;
   }
 
   .left.portfolio {
     width: 35%;
-    height: 1300px;
+    height: 1487px;
   }
 
   .left.portfolio img {
@@ -363,33 +342,33 @@ size reached 980px*/
   }
 
   .left h4 {
-    width: 30.2%;
+    width: 327px;
 /*    height: 40px;
     width: 491px;*/
   }
 
   .left.portfolio #hangman {
-    top: 335px;
+    top: 365px;
     left: 137px;
   }
 
   .left.portfolio #rpg {
-  	top: 580px;
-    left: 137px;
+  	left: 137px;
+    top: 640px;
   }
 
   .left.portfolio h4#trivia {
-    top: 825px;
+    top: 915px;
     left: 137px;
   }
 
   .left.portfolio h4#rutgers {
-    top: 1068px;
+    top: 1192px;
     left: 137px;
   }
 
   .container.portfolio h4#rock {
-    top: 1313px;
+    top: 1468px;
     left: 137px;
   }
 }
@@ -468,7 +447,7 @@ size reached 980px*/
   }
 
   .container.portfolio {
-	height: 1030px;
+	height: 1032px;.
   }
 
   .left.portfolio {
@@ -476,24 +455,13 @@ size reached 980px*/
     height: 773px;
   }
 
-  .left.portfolio img {
-    height: 25%;
-    width: 46%;
-  }
-
-  .left h4 {
-    width: 36.75%;
-/*    height: 40px;
-    width: 491px;*/
-  }
-
   .left.portfolio #hangman {
-	  top: 318px;
+	top: 318px;
     left: 77px;
   }
 
   .left.portfolio #rpg {
-    left: 368px;
+    left: 362px;
     top: 318px;
   }
 
@@ -504,7 +472,7 @@ size reached 980px*/
 
   .left.portfolio h4#rutgers {
     top: 545px;
-    left: 368px;
+    left: 362px;
   }
 
   .container.portfolio h4#rock {
